@@ -220,9 +220,7 @@ MAC 함수 호출만 대상으로 각 크기를 **1,000회 반복**, 평균 시�
 
 ## 8. GitHub 제출
 
-아래 저장소 주소는 본인의 실제 저장소 URL로 교체합니다.
-
-**GitHub Repository:** `[저장소 URL 입력]`
+**GitHub Repository:** `https://github.com/glocaledu/codyssey_1-3`
 
 ```bash
 git status
@@ -232,4 +230,27 @@ git commit -m "feat: complete Mini NPU simulator mission 3"
 git push origin main
 ```
 
-> 백업 파일(`main_backup.py`, `main_before_validation.py`, `data_backup.json`)과 Python 캐시(`__pycache__/`)는 제출 대상에서 제외합니다. `git add .`보다 제출할 파일을 명시적으로 추가하는 방식을 권장합니다.
+
+
+## 실행 결과 스크린샷
+
+### 1. 사용자 입력 모드
+3×3 필터와 패턴을 입력하고 MAC 점수를 계산한 결과입니다.
+
+![사용자 입력 모드](screenshots/01-manual_mode.png)
+
+### 2. JSON 데이터 분석
+제공된 data.json의 패턴을 분석하고 PASS/FAIL을 판정한 결과입니다.
+
+![JSON 분석 결과](screenshots/02-json_analysis.png)
+
+### 3. 성능 분석 및 결과 요약
+3×3부터 25×25까지 MAC 연산 시간과 전체 테스트 결과입니다.
+
+![성능 분석](screenshots/03-performance_summary.png)
+
+### 4. JSON 오류 검증
+배열 크기 불일치를 감지하고 다음 테스트를 계속 수행한 결과입니다.
+
+![오류 검증](screenshots/04-validation_error.png)
+
