@@ -767,7 +767,7 @@ N = 5일 때 `mid = 5 // 2 = 2`이고, 규칙에 해당하는 칸이 1(■)이 �
 ![그림 9. 2차원 배열과 1차원 배열의 접근 방식 비교]
 
 > 그림 9. `grid[r][c]` 두 번 접근과 `flat[r*N + c]` 한 번 접근의 비교
-(screenshots/fig9_flat.png)
+(screenshots/09-flat.png)
 
 ---
 
